@@ -1,0 +1,40 @@
+.wrapper{
+   width: 100%;
+   height: 100vh;
+   background-image: url('../../../assets/oceania.jpg');
+   
+   &__regions{
+      display: grid;
+      align-items: center;
+      grid-template-columns: repeat(5, 1fr);
+      justify-items: center;
+      background-color: #000000c8;
+      width: 100%;
+      height: 100%;
+   }
+
+  
+   &__regions-hover a{
+      background-color: rgb(170, 117, 18);
+      color: #000;
+      padding: 10px 40px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 5px;
+      border-radius: 1px;
+      border: 1px solid #000000;
+   }
+
+   @media(max-width:767px){
+      &__regions{
+         display: grid;
+         align-items: center;
+         grid-template-columns: 1fr;
+         justify-items: center;
+         background-color: #000000c8;
+         width: 100%;
+         height: 100%;
+      }
+   }
+}

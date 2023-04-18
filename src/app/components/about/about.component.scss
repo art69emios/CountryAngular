@@ -1,0 +1,38 @@
+:host{
+   background-color: #000;
+   display: block;
+   color: #fff;
+}
+:host a{
+   color: #fff;
+}
+
+.back{
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   font-weight: 700;
+   font-size: 20px;
+   text-align: right;
+   cursor: pointer;
+}
+
+.wrapper {
+   max-width: 50%;
+   margin: 0 auto;
+   padding: 3% ;
+}
+.img {
+   width: 100%;
+   margin: 0 auto;
+}
+.img  img{
+   width: 100%;
+}
+
+@media(max-width:767px){
+   .wrapper {
+      max-width: 90%;
+      margin: 0 auto;
+      padding: 3% ;
+   }
+}

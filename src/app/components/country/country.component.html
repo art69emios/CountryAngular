@@ -1,0 +1,8 @@
+<div #regionsContainer class="wrapper">
+  <div class="wrapper__regions">
+    <div class="wrapper__regions-hover" *ngFor="let countries of countryData"
+      (mouseover)="onRegionHover(countries[0].region)">
+      <a [routerLink]="[countries[0].region]">{{countries[0].region}}</a>
+    </div>
+  </div>
+</div>

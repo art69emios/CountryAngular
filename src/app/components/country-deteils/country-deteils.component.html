@@ -1,0 +1,12 @@
+<div class="wrapper">
+   <div *ngIf="countryDetails"  class="wrapper__title">
+      <p>Region: {{countryDetails[0].region}}</p>
+      <a [routerLink]="['../']">Back</a>
+   </div>
+   <div class="wrapper__container">
+      <div *ngFor="let country of countryDetails" class="wrapper__countries">
+         <div class="img"><a [routerLink]="[country.name.common]"><img src="{{country.flags.png}}" alt=""></a> </div>
+         <p><a [routerLink]="[country.name.common]">{{country.name.common}}</a></p>
+      </div>
+   </div>
+</div>

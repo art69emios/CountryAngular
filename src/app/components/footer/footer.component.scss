@@ -1,0 +1,18 @@
+footer{
+   align-items: center;
+   justify-content: end;
+   display: flex;
+   padding: 3%;
+   background-color: #141414;
+   border-top: 3px solid rgb(170, 117, 18);
+   color: #fff;
+}
+
+.about{
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   font-weight: 700;
+   font-size: 20px;
+   cursor: pointer;
+
+}
